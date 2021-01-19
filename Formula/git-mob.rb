@@ -8,7 +8,7 @@ class GitMob < Formula
 
   depends_on "node"
 
-  conflicts_with "git-duet/tap/git-duet", :because => "git-duet also has a solo command"
+  conflicts_with "git-duet/tap/git-duet", because: "git-duet also has a solo command"
 
   def install
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
