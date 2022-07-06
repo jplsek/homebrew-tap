@@ -3,8 +3,8 @@ require "language/node"
 class GitMob < Formula
   desc "CLI tool for including co-authors in commits"
   homepage "https://github.com/findmypast-oss/git-mob#readme"
-  url "https://registry.npmjs.org/git-mob/-/git-mob-2.0.0.tgz"
-  sha256 "72bfb1538321c24e2f3be4fc78d2e3f1402722aa4434d3f03f2d2aada9327531"
+  url "https://registry.npmjs.org/git-mob/-/git-mob-2.1.0.tgz"
+  sha256 "749596167e4794f00168389cd4eebb8f57be9c23454fbfc060a04b555a6d0b13"
 
   depends_on "node"
 
