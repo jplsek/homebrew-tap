@@ -9,7 +9,7 @@ class GitMob < Formula
   depends_on "node"
 
   conflicts_with "git-duet/tap/git-duet", because: "git-duet also has a solo command"
-  conflicts_with "jplsek/tap/git-mob-rs", because: "git-mob-rs also has a solo and mob command"
+  conflicts_with "jplsek/tap/git-mob-rs", because: "git-mob-rs uses the same commands"
 
   def install
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
