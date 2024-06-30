@@ -1,8 +1,8 @@
 class GitMobRs < Formula
   desc "CLI tool for including co-authors in commits"
   homepage "https://github.com/jplsek/git-mob-rs"
-  url "https://github.com/jplsek/git-mob-rs/releases/download/v0.4.0/git-mob-rs-macos-intel-0.4.0.zip"
-  sha256 "821e5f5b6aa0f63358d5cfd3c306723abd0296c31634e331f5bbe809d9beba88"
+  url "https://github.com/jplsek/git-mob-rs/releases/download/v0.5.0/git-mob-rs-macos-intel-0.5.0.zip"
+  sha256 "933353c02215ba42b57683d6c0c99f86a62fb78751ab9b324a5e12771b12a35b"
   license "MIT"
 
   conflicts_with "git-duet/tap/git-duet", because: "git-duet also has a solo command"
